@@ -1,0 +1,783 @@
+
+
+.container{
+    background: none;
+}
+nav a{
+    color: black;
+}
+.logo p{
+    color: black;
+}
+main{
+    display: block;
+    width: 100%;
+}
+.bannerExist{
+   display: none;
+}
+.chooseCategory, .programDescription, h1{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 3rem;
+}
+.categorys{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.category button{
+    width: 12vw;
+    height: 3.5vw;
+    background: none;
+    border-radius: 1rem;
+    border: none;
+    outline: 0.5px solid black;
+}
+.category p{
+    color: black;
+    margin-top: 3vh;
+    font-size: 1rem;
+    text-align: center;
+}
+.container{
+    height: auto;
+}
+footer{
+    position: static;
+    bottom: auto;
+    margin-top: 15vh;
+}
+.learnAbout{
+    display: flex;
+}
+.learnAbout img{
+    width: 40%;
+}
+.learnList{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.learnList p{
+    color: black;
+    font-size: 1rem;
+}
+.learnListHeading{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.learnList div{
+    border-radius: 1rem;
+    padding: 1%;
+    width: 90%;
+}
+.list1{
+    background-color: #7DD181;
+}
+.list2{
+    background-color: #FF758F;
+}
+.list3{
+    background-color: #53C2D8;
+}
+.comments{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userComment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+    border-radius: 1rem;
+    padding: 1vw;
+}
+.commentLeft, .commentRight{
+    width: 5vw;
+    height: 6vw;
+}
+.comment p{
+    font-size: 1rem;
+    color: black;
+}
+.person{
+    width: 20%;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.dateDescription{
+    font-size: 0.6rem;
+}
+.addComment{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    background-color: #1C1C1CE5;
+    border-radius: 1rem;
+    border: none;
+    width: 20vw;
+    height: 3vw;
+    color: white;
+    margin-top: 5vh;
+}
+.aboutFirst{
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+}
+.aboutFirst img{
+    width: 40%;
+    margin-right: 4vw;
+}
+.aboutFirst p{
+    color: black;
+    margin-top: 7vh;
+    font-size: 1rem;
+}
+.point{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 3vh;
+}
+.specialwe{
+    font-weight: bold;
+}
+.point img{
+    width: 2vw;
+    height: 2vw;
+    margin-right: 2vw;
+}
+.point p{
+    color: black;
+    font-size: 1rem;
+}
+.statistics{
+    width: 60%;
+    margin: 0 auto;
+}
+.stat{
+    margin-bottom: 3vh;
+    padding: 0.3vw;
+    border-top-right-radius: 1rem;
+}
+.stat p{
+    color: black;
+    font-size: 1rem;
+}
+.stat1{
+    width: 90%;
+    background-color: #53C2D8;
+}
+.stat2{
+    width: 70%;
+    background-color: #FF758F;
+}
+.stat3{
+    width: 40%;
+    background-color: #7DD181;
+}
+.statistics img{
+    width: 100%;
+    margin-top: 5vh;
+}
+.collectivenavigation{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    height: 4vw;
+    margin-bottom: 4vh;
+}
+.collective{
+    flex-basis: 0;
+    flex-grow: 1;
+    color: black;
+    background: none;
+    border: none;
+    height: 100%;
+}
+.collective1{
+    border-right: 1px solid black;
+}
+.collective2{
+    border-right: 1px solid black;
+}
+@media (max-width: 900px){
+    .bannerExist{
+      display: none;
+    }
+    .burger{
+        background-image: url(../img/burgerDark.png);
+    }
+    .logo{
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+.sliderContainer{
+    width: 70%;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+.slide{
+    display: none;
+}
+.showSlide{
+    display: flex;
+}
+.sliderContainer{
+    display: flex;
+}
+.right, .left{
+    width: 5vw;
+}
+
+
+.teacher{
+    justify-content: space-between;
+    align-items: center;
+}
+.teacherInfo{
+    margin-left: 5vw;
+}
+.aboutTeacher{
+    display: flex;
+    align-items: center;
+}
+.aboutTeacher img{
+    margin-right: 1vw;
+    width: 3vw;
+}
+.teacherImage{
+    width: 40%;
+    height: 35vw;
+}
+.aboutTeacher p{
+    color: black;
+}
+.teacherInfo h2{
+    text-align: center;
+}
+.teacherButton1{
+    margin-top: 2vh;
+    background-color: #53C2D8;
+}
+.teacherButton2{
+    background-color: #FF758F;
+}
+.teacherButton3{
+    background-color: #7DD181;
+}
+.teacherButton{
+    width: 90%;
+    height: 5vw;
+    text-align: left;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 2vh;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+.gallery{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.smallPictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.smallPictures img{
+    width: 10vw;
+}
+.mainPicture{
+    width: 40vw;
+    height: 30vw;
+}
+.category button{
+    transition: 0.3s;
+}
+.category button:active{
+    background-color: #1C1C1C;
+}
+nav a:hover{
+    color: #7DD181;
+    text-decoration: 2px solid #7DD181 underline;
+}
+.collective1{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.collective3{
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.collective{
+    transition: 0.3s;
+}
+.collective:active{
+    background-color: #1C1C1C;
+}
+body {
+    overflow-x: hidden;
+}
+.waitInfo p{
+    text-align: center;
+}
+.point:hover{
+    font-weight: bold;
+}
+@media(max-width: 450px){
+    .burger{
+        background-image: url(../img/burgerDark.png);
+    }
+    h1{
+        text-align: left;
+        font-size: 2rem;
+        margin-left: 5vw;
+    }
+    .aboutFirst{
+        flex-direction: column-reverse;
+    }
+    .aboutFirst img{
+        width: 90%;
+    }
+    .point{
+        margin-left: 0;
+        transform: none;
+    }
+    .whywe{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .point img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .statistics{
+        width: 90%;
+    }
+    .mainPicture{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+    .gallery{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .smallPictures img{
+        width: 90%;
+        margin-bottom: 1vh;
+    }
+    .collectivenavigation{
+        width: 90%;
+        height: 12vw;
+    }
+    .gallery{
+        margin-bottom: 3vh;
+    }
+    .addComment{
+        margin-bottom: 3vh;
+    }
+    .descInfo{
+        font-size: 0.5rem;
+    }
+
+    .categorys{
+        flex-direction: column;
+    }
+    .categorys div{
+        display: flex;
+        align-items: center;
+    }
+    .category button{
+      width: 40vw;
+      height: 10vw;
+      margin-right: 3vw;
+    }
+    .programDescription, .chooseCategory{
+        font-size: 1rem;
+    }
+    .chooseCategory{
+        text-align: left;
+        margin-left: 5vw;
+    }
+    .left, .right{
+        display: none;
+    }
+    .sliderContainer{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media(min-width: 450px) and (max-width: 1000px){
+    .whywe{
+        width: 70%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .statistics{
+        width: 70%;
+    }
+    .point{
+        margin-left: 0;
+        transform: none;
+    }
+    .collectivenavigation{
+        width: 60%;
+        height: 7vw;
+    }
+    .gallery{
+        margin-bottom: 3vh;
+    }
+    .aboutFirst p{
+        margin-top: 3vh;
+        font-size: 0.7rem;
+    }
+    .addComment{
+        margin-bottom: 3vh;
+    }
+    .description img{
+        width: 40%;
+    }
+    .addComment{
+        width: 40%;
+        height: 7vw;
+    }
+    .learnList div{
+        margin-bottom: 2vh;
+    }
+    .categorys{
+        flex-direction: column;
+    }
+    .categorys div{
+        display: flex;
+        align-items: center;
+    }
+    .category button{
+      width: 30vw;
+      height: 7vw;
+      margin-right: 3vw;
+    }
+    .teacherInfo p{
+        font-size: 0.7rem;
+    }
+    .cart{
+        margin-bottom: 4vh;
+    } 
+}
+.teacherInfo p{
+    font-size: 1rem;
+}
+@media(max-width: 700px){
+    .sliderContainer{
+        width: 80%;
+    }
+    .teacher{
+        flex-direction: column;
+        align-items: center;
+    }
+    .teacherButton{
+        height: 7vw;
+    }
+}
+@media(max-width: 600px){
+    .userComment{
+        flex-direction: column;
+    }
+    .comment{
+        width: 90%;
+        margin-bottom: 3vh;
+    }
+    .addComment{
+        width: 40%;
+        height: 10vw;
+    }
+    .commentLeft, .commentRight{
+        display: none;
+    }
+    .learnAbout{
+        flex-direction: column;
+        align-items: center;
+    }
+    .learnList{
+        width: 100%;
+        align-items: center;
+    }
+    .learnList p{
+        font-size: 0.7rem;
+    }
+    .learnAbout img{
+        width: 60%;
+    }
+    .learnList div{
+        width: 80%;
+        margin-bottom: 2vh;
+    }
+}
+
+
+.waityourcall{
+    display: flex;
+    align-items: center;
+}
+.waitInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.waitInfo p{
+    color: black;
+}
+.waitInfo img{
+    width: 90%;
+}
+.waitform{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 40vw;
+    height: 40vw;
+    border-radius: 1.5rem;
+}
+.waitform form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.waitform input{
+    width: 80%;
+    border-radius: 1rem;
+    border: 1px solid black;
+    height: 3vw;
+}
+.waitform textarea{
+    width: 80%;
+    border-radius: 1rem;
+    border: 1px solid black;
+    height: 15vw;
+    padding: 5px;
+}
+.waitform button{
+    width: 80%;
+    border-radius: 1rem;
+    background-color: #1C1C1C;
+    border: none;
+    height: 3vw;
+    color: white;
+}
+::placeholder{
+    color: black;
+}
+.adress{
+    text-align: center;
+    color: black;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.adressContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.adressContainer p{
+    color: black;
+    font-size: 1rem;
+}
+.adressDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 1rem;
+    width: 30%;
+    height: 7vw;
+}
+.phoneNumber{
+    display: flex;
+    align-items: flex-end;
+}
+.adressDiv p{
+    font-size: 1vw;
+}
+.cityAdress{
+    font-weight: bold;
+}
+.adress1{
+    background-color: #FF758F;
+}
+.adress2{
+    background-color: #53C2D8;
+}
+.adress3{
+    background-color: #7DD181;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.socials img{
+    width: 3vw;
+    margin-right: 5vw;
+}
+.cart{
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.learnList div{
+    margin-bottom: 1vh;
+}
+.category{
+    margin-bottom: 1vh;
+}
+@media(max-width: 450px){
+    .teacherInfo p{
+        font-size: 0.7rem;
+    }
+    .teacherButton{
+        font-size: 0.5rem;
+    }
+    .waitInfo img{
+        display: none;
+    }
+    .waityourcall{
+        flex-direction: column;
+    }
+    .waityourcall div{
+        width: 80%;
+    }
+    .waitform{
+        height: 60vw;
+    }
+    .waitform form{
+        width: auto;
+        height: 60vw;
+    }
+    .waitform input{
+        height: 5vw;
+        font-size: 0.7rem;
+    }
+    .waitform textarea{
+        font-size: 0.7rem;
+    }
+    .waitform button{
+        height: 8vw;
+        font-size: 0.7rem;
+    }
+    .socials img{
+        width: 7vw;
+        height: 7vw;
+    }
+    h1{
+        text-align: center;
+    }
+    .waitInfo p{
+        text-align: center;
+    }
+    .adress{
+        font-size: 1rem;
+    }
+    .adressContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .adressDiv{
+        width: 70%;
+        height: auto;
+        margin-bottom: 4vh;
+        background: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .adress2{
+        align-self: flex-end;
+    }
+    .adressDiv p{
+        font-size: 4vw;
+    }
+    .cart{
+        margin-bottom: 5vh;
+    }
+}
+@media(min-width: 450px) and (max-width: 900px){
+    .waitform{
+        width: 55vw;
+        height: 50vw;
+    }
+    .waitform form{
+        width: auto;
+        height: 50vw;
+    }
+    .waitform input{
+        height: 5vw;
+        font-size: 0.8rem;
+    }
+    .waitform textarea{
+        font-size: 0.8rem;
+    }
+    .waitform button{
+        height: 7vw;
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .waitInfo p{
+        font-size: 0.8rem;
+    }
+    .socials img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .learnList div p{
+        font-size: 0.7rem;
+    }
+}
